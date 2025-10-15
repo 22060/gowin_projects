@@ -1,0 +1,79 @@
+# Compiled and temporary files
+*.log
+*.bak
+*.tmp
+*.cfg
+*.dmp
+*.rpt
+*.err
+*.map
+*.lst
+*.pdb
+*.db
+*.ini
+*.xml
+*.xrf
+*.xls
+*.htm
+*.html
+
+# Simulation outputs
+*.vcd
+*.fsdb
+*.wlf
+*.trn
+*.sim
+*.do
+/work/
+simulation/
+
+# Build and synthesis outputs
+impl/
+synthesis/
+synthesizer/
+synlog/
+project/reports/
+project/output/
+project/temp/
+output/
+reports/
+temp/
+db/
+rev/
+*.bit
+*.fs
+*.jed
+*.svf
+*.bin
+*.hex
+
+# Cache and intermediate files
+.cache/
+ipcore/
+tmp/
+*.tmpdir/
+
+# IDE project backups
+*.gwbackup
+*.gwbak
+*.backup
+*.old
+
+# Gowin-specific project files to keep
+# (You may adjust this section)
+!*.gprj        # Keep project file
+!*.v           # Keep Verilog
+!*.sv          # Keep SystemVerilog
+!*.vhd         # Keep VHDL
+!*.ldf         # Keep constraint files
+!*.cst         # Keep pin constraint files
+!*.sdc         # Keep timing constraint files
+!*.tcl         # Keep scripts
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
